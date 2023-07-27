@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "Full Stack Developer, node, homework#01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+		"dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikttur/goit-node-hw-01.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "vikttur",
+  "license": "ISC",
+  "engines": {
+    "node": "18.13.0",
+    "npm": "8.19.3"
+  },
+  "bugs": {
+    "url": "https://github.com/vikttur/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/vikttur/goit-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
