@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "Full Stack Developer, node, homework#01",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-		"dev": "nodemon index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vikttur/goit-node-hw-01.git"
   },
+  "bugs": {
+    "url": "https://github.com/vikttur/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/vikttur/goit-node-hw-01#readme",
   "keywords": [
     "node"
   ],
@@ -21,11 +20,18 @@
     "node": "18.13.0",
     "npm": "8.19.3"
   },
-  "bugs": {
-    "url": "https://github.com/vikttur/goit-node-hw-01/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "homepage": "https://github.com/vikttur/goit-node-hw-01#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
   }
 }
